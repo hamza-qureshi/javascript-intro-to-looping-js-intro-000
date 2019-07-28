@@ -25,7 +25,7 @@ function doWhileLoop (array) {
 
   do {
     incrementVariable()
-    array = array.slice(1)
+    array.splice(1)
 } while(array.length > 0 && i<2)
 
 function incrementVariable() {
